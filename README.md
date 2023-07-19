@@ -1,5 +1,17 @@
 <!-- LTeX: language=en-US -->
-# game-gorl (game framework using Go and raylib)
+# game-gorl (game codebase using Go and raylib)
+## Creating a project
+First, start by copying the source:
+```bash
+git clone https://github.com/wintermute-cell/game-gorl <my-project-name>
+cd <my-project-name>
+rm -rf .git
+```
+Then, adjust the `makefile`. Finally, run:
+```bash
+go mod init <my-project-name>
+go mod tidy
+```
 
 ## Structure
 - `assets`: Holds game assets.
